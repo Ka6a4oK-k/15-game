@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 40px;
+    color: rgb(224, 200, 169);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./res/tekstura-tekstury-fonovye.jpg);
+}
+.gameField{
+    border-radius: 6px;
+    margin: 40px;
+    width: 60vh;
+    height: 60vh;
+    border: 1px solid;
+    position: relative;
+    background: #fff;
+}
+.tile{
+    background: rgb(110, 110, 110);
+    width: 15vh;
+    height: 15vh;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    user-select: none;
+    transition: 0.2s;
+}
+.btn-wrapper{
+    align-items: center;
+    display: flex;
+}
+.shuffleBtn{
+    margin: 0 30px 0 0;
+    text-transform: uppercase;
+    background: rgb(110, 110, 110);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(224, 200, 169);
+    font-size: 24px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+}
+.counter{
+    font-size: 32px;
+}
